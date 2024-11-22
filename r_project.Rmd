@@ -1,12 +1,22 @@
 ---
 title: "league_champions"
-author: "aneeb"
+author: "aneeb, "
 date: "2024-11-22"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+#install.packages("readr")
+library(readr)
+
+champsData <- read.csv("League of Legends Champion Stats 13.13.csv", sep=";")
+
+champsData(dataF)
+champsData(dataF)
+
+
 ```
 
 ## R Markdown
